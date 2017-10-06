@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  6 OCT 2017 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  6 OCT 2017 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -602,64 +602,107 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (22.51422pt too wide) in paragraph at lines 48--67
+<PreLabOne.jpg, id=9, 614.295pt x 794.97pt>
+File: PreLabOne.jpg Graphic file (type jpg)
+ <use PreLabOne.jpg>
+Package pdftex.def Info: PreLabOne.jpg used on input line 44.
+(pdftex.def)             Requested size: 469.75502pt x 607.9196pt.
+
+<PreLabTwo.jpg, id=10, 614.295pt x 794.97pt>
+File: PreLabTwo.jpg Graphic file (type jpg)
+ <use PreLabTwo.jpg>
+Package pdftex.def Info: PreLabTwo.jpg used on input line 48.
+(pdftex.def)             Requested size: 469.75502pt x 607.9196pt.
+
+<PreLabThree.jpg, id=11, 614.295pt x 794.97pt>
+File: PreLabThree.jpg Graphic file (type jpg)
+ <use PreLabThree.jpg>
+Package pdftex.def Info: PreLabThree.jpg used on input line 52.
+(pdftex.def)             Requested size: 469.75502pt x 607.9196pt.
+ [2 <./PreLabOne.jpg>] <PreLabPartFour.PNG, id=16, 1153.30875pt x 513.71925pt>
+File: PreLabPartFour.PNG Graphic file (type png)
+
+<use PreLabPartFour.PNG>
+Package pdftex.def Info: PreLabPartFour.PNG used on input line 56.
+(pdftex.def)             Requested size: 469.75502pt x 209.24663pt.
+ [3 <./PreLabTwo.jpg>]
+<PreLabFour.jpg, id=21, 614.295pt x 794.97pt>
+File: PreLabFour.jpg Graphic file (type jpg)
+ <use PreLabFour.jpg>
+Package pdftex.def Info: PreLabFour.jpg used on input line 60.
+(pdftex.def)             Requested size: 469.75502pt x 607.9196pt.
+ [4 <./PreLabThree.jpg>] [5 <./PreLabPartFour.PNG>]
+Overfull \hbox (22.51422pt too wide) in paragraph at lines 67--86
  [][] 
  []
 
-<LSA.PNG, id=9, 619.71526pt x 297.5115pt>
+<TheveninGraph.png, id=29, 1871.99374pt x 1059.96pt>
+File: TheveninGraph.png Graphic file (type png)
+ <use TheveninGraph.png>
+Package pdftex.def Info: TheveninGraph.png used on input line 90.
+(pdftex.def)             Requested size: 469.75502pt x 265.97594pt.
+
+[6 <./PreLabFour.jpg>] <TheveninCode.png, id=33, 513.92pt x 215.80624pt>
+File: TheveninCode.png Graphic file (type png)
+
+<use TheveninCode.png>
+Package pdftex.def Info: TheveninCode.png used on input line 95.
+(pdftex.def)             Requested size: 469.75502pt x 197.2632pt.
+ [7 <./TheveninGraph.png>]
+<LSA.PNG, id=43, 619.71526pt x 297.5115pt>
 File: LSA.PNG Graphic file (type png)
  <use LSA.PNG>
-Package pdftex.def Info: LSA.PNG used on input line 75.
+Package pdftex.def Info: LSA.PNG used on input line 105.
 (pdftex.def)             Requested size: 469.75502pt x 225.52547pt.
 
-<LSB.PNG, id=11, 619.71526pt x 295.1025pt>
+<LSB.PNG, id=44, 619.71526pt x 295.1025pt>
 File: LSB.PNG Graphic file (type png)
  <use LSB.PNG>
-Package pdftex.def Info: LSB.PNG used on input line 80.
+Package pdftex.def Info: LSB.PNG used on input line 110.
 (pdftex.def)             Requested size: 469.75502pt x 223.69934pt.
 
-<LSC.PNG, id=12, 622.12425pt x 298.11375pt>
+<LSC.PNG, id=45, 622.12425pt x 298.11375pt>
 File: LSC.PNG Graphic file (type png)
  <use LSC.PNG>
-Package pdftex.def Info: LSC.PNG used on input line 85.
+Package pdftex.def Info: LSC.PNG used on input line 115.
 (pdftex.def)             Requested size: 469.75502pt x 225.10863pt.
- [2 <./LSA.PNG>]
-<3.PNG, id=22, 672.71326pt x 537.207pt>
+ [8 <./TheveninCode.png> <./LSA.PNG>] <3.PNG, id=51, 672.71326pt x 537.207pt>
 File: 3.PNG Graphic file (type png)
  <use 3.PNG>
-Package pdftex.def Info: 3.PNG used on input line 97.
+Package pdftex.def Info: 3.PNG used on input line 127.
 (pdftex.def)             Requested size: 469.75502pt x 375.14066pt.
- [3 <./LSB.PNG> <./LSC.PNG>] <4.PNG, id=29, 1541.76pt x 837.1275pt>
+ [9 <./LSB.PNG> <./LSC.PNG>] <4.PNG, id=57, 1541.76pt x 837.1275pt>
 File: 4.PNG Graphic file (type png)
  <use 4.PNG>
-Package pdftex.def Info: 4.PNG used on input line 104.
+Package pdftex.def Info: 4.PNG used on input line 134.
 (pdftex.def)             Requested size: 469.75502pt x 255.06166pt.
 File: LSC.PNG Graphic file (type png)
- <use LSC.PNG>
-Package pdftex.def Info: LSC.PNG used on input line 109.
+
+<use LSC.PNG>
+Package pdftex.def Info: LSC.PNG used on input line 139.
 (pdftex.def)             Requested size: 469.75502pt x 225.10863pt.
- [4 <./3.PNG>] [5 <./4.PNG>] [6] (./LabTwo.aux) ) 
+ [10 <./3.PNG>] [11 <./4.PNG>] [12] (./LabTwo.aux) ) 
 Here is how much of TeX's memory you used:
- 12519 strings out of 493029
- 258575 string characters out of 6136234
- 273563 words of memory out of 5000000
- 15936 multiletter control sequences out of 15000+600000
+ 12554 strings out of 493029
+ 259238 string characters out of 6136234
+ 272563 words of memory out of 5000000
+ 15964 multiletter control sequences out of 15000+600000
  10716 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,42p,10353b,929s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on LabTwo.pdf (6 pages, 260053 bytes).
+</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on LabTwo.pdf (12 pages, 26062910 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
