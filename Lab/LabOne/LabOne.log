@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  29 SEP 2017 04:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  29 SEP 2017 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,82 +278,83 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 37.
 
-<Capture1.PNG, id=1, 608.2725pt x 434.22224pt>
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<Capture1.PNG, id=9, 608.2725pt x 434.22224pt>
 File: Capture1.PNG Graphic file (type png)
  <use Capture1.PNG>
-Package pdftex.def Info: Capture1.PNG used on input line 42.
+Package pdftex.def Info: Capture1.PNG used on input line 43.
 (pdftex.def)             Requested size: 361.34999pt x 257.95796pt.
 
-<Capture.PNG, id=3, 511.9125pt x 381.22424pt>
+<Capture.PNG, id=11, 511.9125pt x 381.22424pt>
 File: Capture.PNG Graphic file (type png)
  <use Capture.PNG>
-Package pdftex.def Info: Capture.PNG used on input line 47.
+Package pdftex.def Info: Capture.PNG used on input line 48.
 (pdftex.def)             Requested size: 361.34999pt x 269.10051pt.
 
-<Capture10.PNG, id=4, 1541.76pt x 837.1275pt>
+<Capture10.PNG, id=12, 1541.76pt x 837.1275pt>
 File: Capture10.PNG Graphic file (type png)
  <use Capture10.PNG>
-Package pdftex.def Info: Capture10.PNG used on input line 52.
+Package pdftex.def Info: Capture10.PNG used on input line 53.
 (pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Capture1.PNG>]
-<Capture2.PNG, id=15, 1541.76pt x 837.1275pt>
+ [2 <./Capture1.PNG> <./Capture.PNG>] <Capture2.PNG, id=19, 1541.76pt x 837.127
+5pt>
 File: Capture2.PNG Graphic file (type png)
- <use Capture2.PNG>
-Package pdftex.def Info: Capture2.PNG used on input line 61.
-(pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
 
-<Capture3.PNG, id=16, 511.9125pt x 381.22424pt>
+<use Capture2.PNG>
+Package pdftex.def Info: Capture2.PNG used on input line 62.
+(pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
+ <Capture3.PNG, id=20, 511.9125pt x 381.22424pt>
 File: Capture3.PNG Graphic file (type png)
- <use Capture3.PNG>
-Package pdftex.def Info: Capture3.PNG used on input line 66.
+
+<use Capture3.PNG>
+Package pdftex.def Info: Capture3.PNG used on input line 67.
 (pdftex.def)             Requested size: 361.34999pt x 269.10051pt.
- [2 <./Capture.PNG> <./Capture10.PNG>] <Capture11.jpg, id=22, 4047.12pt x 3035.
-34pt>
+ <Capture11.jpg, id=21, 4047.12pt x 3035.34pt>
 File: Capture11.jpg Graphic file (type jpg)
 
 <use Capture11.jpg>
-Package pdftex.def Info: Capture11.jpg used on input line 71.
+Package pdftex.def Info: Capture11.jpg used on input line 72.
 (pdftex.def)             Requested size: 361.34999pt x 270.99199pt.
- [3 <./Capture2.PNG> <./Capture3.PNG>]
-<Capture4.PNG, id=28, 1541.76pt x 837.1275pt>
+ [3 <./Capture10.PNG> <./Capture2.PNG>] [4 <./Capture3.PNG>] <Capture4.PNG, id=
+31, 1541.76pt x 837.1275pt>
 File: Capture4.PNG Graphic file (type png)
  <use Capture4.PNG>
-Package pdftex.def Info: Capture4.PNG used on input line 78.
+Package pdftex.def Info: Capture4.PNG used on input line 79.
 (pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
 
-<Capture5.PNG, id=29, 1541.76pt x 837.1275pt>
+<Capture5.PNG, id=32, 1541.76pt x 837.1275pt>
 File: Capture5.PNG Graphic file (type png)
  <use Capture5.PNG>
-Package pdftex.def Info: Capture5.PNG used on input line 83.
+Package pdftex.def Info: Capture5.PNG used on input line 84.
 (pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
- [4 <./Capture11.jpg> <./Capture4.PNG>] <Capture6.PNG, id=34, 1541.76pt x 837.1
+ [5 <./Capture11.jpg> <./Capture4.PNG>] <Capture6.PNG, id=37, 1541.76pt x 837.1
 275pt>
 File: Capture6.PNG Graphic file (type png)
 
 <use Capture6.PNG>
-Package pdftex.def Info: Capture6.PNG used on input line 90.
+Package pdftex.def Info: Capture6.PNG used on input line 91.
 (pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
- <Capture7.PNG, id=35, 1541.76pt x 837.1275pt>
+ <Capture7.PNG, id=38, 1541.76pt x 837.1275pt>
 File: Capture7.PNG Graphic file (type png)
 
 <use Capture7.PNG>
-Package pdftex.def Info: Capture7.PNG used on input line 95.
+Package pdftex.def Info: Capture7.PNG used on input line 96.
 (pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
- <Capture8.PNG, id=36, 1541.76pt x 837.1275pt>
+ <Capture8.PNG, id=39, 1541.76pt x 837.1275pt>
 File: Capture8.PNG Graphic file (type png)
 
 <use Capture8.PNG>
-Package pdftex.def Info: Capture8.PNG used on input line 100.
+Package pdftex.def Info: Capture8.PNG used on input line 101.
 (pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
- [5 <./Capture5.PNG> <./Capture6.PNG>]
+ [6 <./Capture5.PNG> <./Capture6.PNG>]
 File: Capture8.PNG Graphic file (type png)
  <use Capture8.PNG>
-Package pdftex.def Info: Capture8.PNG used on input line 105.
+Package pdftex.def Info: Capture8.PNG used on input line 106.
 (pdftex.def)             Requested size: 361.34999pt x 196.20128pt.
 
-[6 <./Capture7.PNG> <./Capture8.PNG>] [7] (./LabOne.aux) ) 
+[7 <./Capture7.PNG> <./Capture8.PNG>] [8] (./LabOne.aux) ) 
 Here is how much of TeX's memory you used:
  3167 strings out of 493029
  47201 string characters out of 6136234
@@ -367,10 +368,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr17.pfb>
-Output written on LabOne.pdf (7 pages, 3157295 bytes).
+Output written on LabOne.pdf (8 pages, 3158248 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
