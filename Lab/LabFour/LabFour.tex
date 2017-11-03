@@ -1,0 +1,144 @@
+\documentclass[10pt]{article}
+
+%defines page size and margins
+\usepackage{geometry}
+\geometry{
+    letterpaper,
+    left=1in,
+    right=1in,
+    top=1in,
+    bottom=1in,
+}
+
+%Sets spacing for entire document
+\usepackage{setspace}
+\singlespacing
+
+%Package for reducing space in between list items
+\usepackage{enumitem}
+
+%Math symbols
+\usepackage{gensymb}
+\usepackage{siunitx}
+
+%Image path
+\usepackage{graphicx}
+\graphicspath{ {/} }
+
+%Used for adjusting images
+\usepackage[export]{adjustbox}
+
+%For floating images
+\usepackage{float}
+
+\begin{document}
+\title{Laboratory Four --- OP Amps}
+\date{November 3, 2017}
+\author{Rishabh Shah\\ 4655 4192\\ \\ Partner: Matthew Remillard}
+\maketitle
+\newpage
+
+\section*{Pre-Lab}
+
+\section*{Lab Data}
+\subsection*{Voltage Follower}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lll}
+		\hline
+		$V_{in}$ & $V_{CC}$ & $V_{out}$\\
+		\hline
+		$4.997V$ & $8.00V$ & $3.369V$\\
+		\hline
+	\end{tabular}
+	\caption{Voltage follower data}
+\end{table}
+
+\subsection*{Inverting Amplifier}
+$R_X = 58475 \Omega$
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{InvertingAmp.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for the inverting amplifier}
+\end{figure}
+
+\subsection*{Non-Inverting Amplifier}
+$R_X = 105820 \Omega$
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{NonInvertingAmp.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for the non-inverting amplifier}
+\end{figure}
+
+\subsection*{Clipping}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		$+V_{CC}(V)$ & $-V_{CC}(V)$ & $V_{OUT,MAX}(V)$ & $V_{OUT,MIN}(V)$ & $\Delta V+(V)$ & $\Delta V-(V)$\\
+		\hline
+		15 & -15 & 13.1 & -13.3 & 1.9 & -1.7\\
+		20 & -20 & 17.7 & -17.9 & 2.3 & -2.1\\
+		\hline
+	\end{tabular}
+	\caption{Data when $R_L=2k\Omega$}
+\end{table}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Clipping20V1.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for when $R_L=2k\Omega$}
+\end{figure}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{llllll}
+		\hline
+		$+V_{CC}(V)$ & $-V_{CC}(V)$ & $V_{OUT,MAX}(V)$ & $V_{OUT,MIN}(V)$ & $\Delta V+(V)$ & $\Delta V-(V)$\\
+		\hline
+		15 & -15 & 13.3 & -13.7 & 1.7 & -1.3\\
+		20 & -20 & 18.1 & -18.3 & 1.9 & -1.7\\
+		\hline
+	\end{tabular}
+	\caption{Data when $R_L=10k\Omega$}
+\end{table}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Clipping20V2.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for when $R_L=10k\Omega$}
+\end{figure}
+
+\subsection*{Phase Shift and Time Delay}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lll}
+		\hline
+		Frequency $(kHz)$ & Shift $(\mu s)$ & Shift $(\degree)$\\
+		\hline
+		2 & -13.3 & 5.38\\
+		5 & -11.6 & -20.5\\
+		10 & -9.6 & -36.3\\
+		20 & -7.9 & -57.2\\
+		\hline
+	\end{tabular}
+	\caption{Data for phase shift and time delay}
+\end{table}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{PhaseShift2.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for when frequency is $2kHz$}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{PhaseShift5.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for when frequency is $5kHz$}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{PhaseShift10.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for when frequency is $10kHz$}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{PhaseShift20.png}
+	\caption{$V_{in}$ and $V_{out}$ vs Time for when frequency is $20kHz$}
+\end{figure}
+\end{document}
