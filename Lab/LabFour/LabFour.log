@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 NOV 2017 05:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 NOV 2017 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,92 +720,85 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<PreLab3a1.PNG, id=12, 963.6pt x 1053.9375pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<PreLab3a1.PNG, id=29, 963.6pt x 1053.9375pt>
 File: PreLab3a1.PNG Graphic file (type png)
  <use PreLab3a1.PNG>
-Package pdftex.def Info: PreLab3a1.PNG used on input line 101.
+Package pdftex.def Info: PreLab3a1.PNG used on input line 104.
 (pdftex.def)             Requested size: 469.75502pt x 513.7965pt.
 
-<0.PNG, id=14, 755.07094pt x 733.99219pt>
+<0.PNG, id=31, 755.07094pt x 733.99219pt>
 File: 0.PNG Graphic file (type png)
  <use 0.PNG>
-Package pdftex.def Info: 0.PNG used on input line 106.
+Package pdftex.def Info: 0.PNG used on input line 109.
 (pdftex.def)             Requested size: 469.75502pt x 456.63843pt.
- [2]
-<PreLab3a2.PNG, id=37, 963.6pt x 1053.9375pt>
+
+<PreLab3a2.PNG, id=32, 963.6pt x 1053.9375pt>
 File: PreLab3a2.PNG Graphic file (type png)
  <use PreLab3a2.PNG>
-Package pdftex.def Info: PreLab3a2.PNG used on input line 111.
+Package pdftex.def Info: PreLab3a2.PNG used on input line 114.
 (pdftex.def)             Requested size: 469.75502pt x 513.7965pt.
- [3 <./PreLab3a1.PNG>] <100000.PNG, id=44, 741.52031pt x 697.8572pt>
+ [3 <./PreLab3a1.PNG>] <100000.PNG, id=41, 741.52031pt x 697.8572pt>
 File: 100000.PNG Graphic file (type png)
  <use 100000.PNG>
-Package pdftex.def Info: 100000.PNG used on input line 116.
+Package pdftex.def Info: 100000.PNG used on input line 119.
 (pdftex.def)             Requested size: 469.75502pt x 442.10149pt.
 
 [4 <./0.PNG>] [5 <./PreLab3a2.PNG>] [6 <./100000.PNG>]
-<InvertingAmp.png, id=66, 639.13782pt x 448.67625pt>
+<InvertingAmp.png, id=63, 639.13782pt x 448.67625pt>
 File: InvertingAmp.png Graphic file (type png)
  <use InvertingAmp.png>
 Package pdftex.def Info: InvertingAmp.png used on input line 150.
 (pdftex.def)             Requested size: 469.75502pt x 329.76965pt.
 
-<NonInvertingAmp.png, id=67, 640.64343pt x 447.92343pt>
+<NonInvertingAmp.png, id=64, 640.64343pt x 447.92343pt>
 File: NonInvertingAmp.png Graphic file (type png)
 
 <use NonInvertingAmp.png>
 Package pdftex.def Info: NonInvertingAmp.png used on input line 158.
 (pdftex.def)             Requested size: 469.75502pt x 328.44402pt.
  [7 <./InvertingAmp.png (PNG copy)>]
-<Clipping20V1.png, id=79, 639.89063pt x 450.18187pt>
+<Clipping20V1.png, id=76, 639.89063pt x 450.18187pt>
 File: Clipping20V1.png Graphic file (type png)
  <use Clipping20V1.png>
 Package pdftex.def Info: Clipping20V1.png used on input line 177.
 (pdftex.def)             Requested size: 469.75502pt x 330.4916pt.
 
 [8 <./NonInvertingAmp.png (PNG copy)>]
-<Clipping20V2.png, id=87, 642.14906pt x 450.18187pt>
+<Clipping20V2.png, id=84, 642.14906pt x 450.18187pt>
 File: Clipping20V2.png Graphic file (type png)
  <use Clipping20V2.png>
 Package pdftex.def Info: Clipping20V2.png used on input line 194.
 (pdftex.def)             Requested size: 469.75502pt x 329.33069pt.
 
 [9 <./Clipping20V1.png (PNG copy)>]
-<PhaseShift2.png, id=94, 639.13782pt x 446.41782pt>
+<PhaseShift2.png, id=91, 639.13782pt x 446.41782pt>
 File: PhaseShift2.png Graphic file (type png)
  <use PhaseShift2.png>
 Package pdftex.def Info: PhaseShift2.png used on input line 215.
 (pdftex.def)             Requested size: 469.75502pt x 328.10974pt.
 
-<PhaseShift5.png, id=95, 638.385pt x 447.92343pt>
+<PhaseShift5.png, id=92, 638.385pt x 447.92343pt>
 File: PhaseShift5.png Graphic file (type png)
  <use PhaseShift5.png>
 Package pdftex.def Info: PhaseShift5.png used on input line 220.
 (pdftex.def)             Requested size: 469.75502pt x 329.60593pt.
 
 [10 <./Clipping20V2.png (PNG copy)>]
-<PhaseShift10.png, id=103, 646.66594pt x 450.9347pt>
+<PhaseShift10.png, id=101, 646.66594pt x 450.9347pt>
 File: PhaseShift10.png Graphic file (type png)
  <use PhaseShift10.png>
 Package pdftex.def Info: PhaseShift10.png used on input line 225.
 (pdftex.def)             Requested size: 469.75502pt x 327.5695pt.
 
 [11 <./PhaseShift2.png (PNG copy)>]
-<PhaseShift20.png, id=109, 638.385pt x 445.665pt>
+<PhaseShift20.png, id=107, 638.385pt x 445.665pt>
 File: PhaseShift20.png Graphic file (type png)
  <use PhaseShift20.png>
 Package pdftex.def Info: PhaseShift20.png used on input line 230.
 (pdftex.def)             Requested size: 469.75502pt x 327.94406pt.
 
 [12 <./PhaseShift5.png (PNG copy)>] [13 <./PhaseShift10.png (PNG copy)>]
-Overfull \hbox (2.26344pt too wide) in paragraph at lines 236--240
-\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 =
- []200\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 
- = 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 333\OML/cmm/m/it/10 V$ $PercentageError \
-OT1/cmr/m/n/10 = [] = [] =
- []
-
 [14 <./PhaseShift20.png (PNG copy)>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
  [15]
@@ -824,23 +817,22 @@ Here is how much of TeX's memory you used:
  20476 multiletter control sequences out of 15000+600000
  10716 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,10n,77p,10354b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,77p,10354b,739s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on LabFour.pdf (15 pages, 729549 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb>
+Output written on LabFour.pdf (15 pages, 709575 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 188 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  57 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -50,52 +50,55 @@
 \section*{Pre-Lab}
 \subsection*{I}
 \subsubsection*{a}
-{\doublespacing
-\noindent $Gain = \frac{V_{out}}{V_{in}} = (1+\frac{R_f}{R_S})(\frac{R_B+R_P-R_X}{R_B+R_P})$
+$$Gain = \frac{V_{out}}{V_{in}} = (1+\frac{R_f}{R_S})(\frac{R_B+R_P-R_X}{R_B+R_P})$$
 
-\noindent $Gain_{min} = (1+\frac{R_f}{R_S})(\frac{R_B}{R_B+R_P})$
-	
-\noindent Gain is minimized when $R_X = R_P$
+$$Gain_{min} = (1+\frac{R_f}{R_S})(\frac{R_B}{R_B+R_P})$$
 
-\noindent $Gain_{max} = 1+\frac{R_f}{R_S}$
+\begin{center}	
+Gain is minimized when $R_X = R_P$
+\end{center}
 
-\noindent Gain is maximized when $R_X = 0$}
+$$Gain_{max} = 1+\frac{R_f}{R_S}$$
+
+\begin{center}
+Gain is maximized when $R_X = 0$
+\end{center}
 
 \subsubsection*{b}
-{\doublespacing
-\noindent $Gain = \frac{V_{out}}{V_{in}} = (1+\frac{R_f}{R_S})(\frac{R_B+R_P-R_X}{R_B+R_P})$
+$$Gain = \frac{V_{out}}{V_{in}} = (1+\frac{R_f}{R_S})(\frac{R_B+R_P-R_X}{R_B+R_P})$$
 
-\noindent $R_f = R_S(Gain(\frac{R_B+R_P}{R_B+R_P-R_X})) = 1k\Omega(50(\frac{2k\Omega+10k\Omega}{2k\Omega+10k\Omega-2k\Omega = 60k\Omega}))$}
+$$R_f = R_S(Gain(\frac{R_B+R_P}{R_B+R_P-R_X})) = 1k\Omega(50(\frac{2k\Omega+10k\Omega}{2k\Omega+10k\Omega-2k\Omega = 60k\Omega}))$$
 
 \subsection*{II}
 \subsubsection*{a}
-{\doublespacing
-\noindent $Gain = |\frac{V_{out}}{V_{in}}| = \frac{R_1+R_X}{R_S}$
+$$Gain = |\frac{V_{out}}{V_{in}}| = \frac{R_1+R_X}{R_S}$$
 
-\noindent $|Gain_{min}| = \frac{R_1}{R_S}$
+$$|Gain_{min}| = \frac{R_1}{R_S}$$
 
-\noindent Gain is minimized when $R_X = 0$
+\begin{center}
+Gain is minimized when $R_X = 0$
+\end{center}
 
-\noindent $|Gain_{max}| = \frac{R_1+R_X}{R_S}$
+$$|Gain_{max}| = \frac{R_1+R_X}{R_S}$$
 
-\noindent Gain is maximized when $R_X = R_P$}
+\begin{center}
+\noindent Gain is maximized when $R_X = R_P$
+\end{center}
 
 \subsubsection*{b}
-{\doublespacing
-\noindent $Gain = |\frac{V_{out}}{V_{in}}| = \frac{R_1+R_X}{R_S}$
+$$Gain = |\frac{V_{out}}{V_{in}}| = \frac{R_1+R_X}{R_S}$$
 
-\noindent $R_f = R_1 + R_X$
+$$R_f = R_1 + R_X$$
 
-\noindent $Gain = \frac{R_f}{R_S}$
+$$Gain = \frac{R_f}{R_S}$$
 
-\noindent $R_f = Gain\cdot R_S = 100 \cdot 1k\Omega = 100k\Omega$}
+$$R_f = Gain\cdot R_S = 100 \cdot 1k\Omega = 100k\Omega$$
 
 \subsection*{III}
 \subsubsection*{a}
-{\doublespacing
-\noindent $Gain_{min} = 1$
+$$Gain_{min} = 1$$
 
-\noindent $Gain_{max} = 101$
+$$Gain_{max} = 101$$
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{PreLab3a1.PNG}
@@ -115,19 +118,16 @@
 	\centering
 	\includegraphics[width=\textwidth]{100000.PNG}
 	\caption{Circuit schematic which results in maximum gain}
-\end{figure}}
+\end{figure}
 
 \subsubsection*{b}
-{\doublespacing
-\noindent The smallest peak amplitude of the output signal at which clipping is observed is $12.12V$.}
+\noindent The smallest peak amplitude of the output signal at which clipping is observed is $12.12V$.
 
 \subsubsection*{c}
-{\doublespacing
-\noindent The waveform is clipped only at positive voltages.}
+\noindent The waveform is clipped only at positive voltages.
 
 \subsubsection*{d}
-{\doublespacing
-\noindent The waveform is clipped only at negative voltages.}
+\noindent The waveform is clipped only at negative voltages.
 
 \section*{Lab Data}
 \subsection*{Voltage Follower}
@@ -135,9 +135,9 @@
 	\centering
 	\begin{tabular}{lll}
 		\hline
-		$V_{in}$ & $V_{CC}$ & $V_{out}$\\
+		$V_{in}(V)$ & $V_{CC}(V)$ & $V_{out}(V)$\\
 		\hline
-		$4.997V$ & $8.00V$ & $3.369V$\\
+		$4.997$ & $8.00$ & $3.369$\\
 		\hline
 	\end{tabular}
 	\caption{Voltage follower data}
@@ -234,24 +234,24 @@ $R_X = 105820 \Omega$
 \section*{Post-Lab}
 \subsection*{Voltage Buffer}
 \noindent Using ideal op-amp assumptions, $V_{out} = V_{in}$ in a voltage follower circuit due to 100\% negative feedback.
-$V_{in} = \frac{V_S}{R_1 + R_2} R_2 = \frac{5V}{100k\Omega + 200k\Omega}200k\Omega = 3.333V$
-$Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|3.369V-3.333V|}{3.333V} = 1.080\%$
+$$V_{in} = \frac{V_S}{R_1 + R_2} R_2 = \frac{5V}{100k\Omega + 200k\Omega}200k\Omega = 3.333V$$
+$$Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|3.369V-3.333V|}{3.333V} = 1.080\%$$
 \noindent If the value of $R_3$ changed, it would have an effect on the current drawn from the voltage source. If the value of $R_3$ increases, the current drawn would decrease. If the value of $R_3$ decreases, the current drawn would increase.
 
 \subsection*{Inverting Amplifier}
 \noindent Using ideal op-amp assumptions,
-$Gain = \frac{V_{out}}{V_{in}}$
-$V_{out} = \frac{R_f}{R_{S}}V_{in}$
-$R_f = |Gain| \cdot R_{S} = 50 \cdot 1000\Omega = 50k\Omega$
-$Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|59475\Omega-50000\Omega|}{50000\Omega} = 18.95\%$
+$$Gain = \frac{V_{out}}{V_{in}}$$
+$$V_{out} = \frac{R_f}{R_{S}}V_{in}$$
+$$R_f = |Gain| \cdot R_{S} = 50 \cdot 1000\Omega = 50k\Omega$$
+$$Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|59475\Omega-50000\Omega|}{50000\Omega} = 18.95\%$$
 \noindent The measured $R_f$ was larger than the calculated value by $18.95\%$. This is due to the fact that the calculated value relied on an ideal op-amp. However, the op-amp used in the experiment was not an ideal op-amp. The LM 741 is a non-ideal op-amp, causing the difference between the calculated and measured values.
 
 \subsection*{Noninverting Amplifier}
 \noindent Using ideal op-amp assumptions,
-$Gain = \frac{V_{out}}{V_{in}}$
-$V_{out} = (1+\frac{R_f}{R_{S}})V_{in}$
-$R_f = (|Gain|-1)\cdot R_{S} = (100-1)\cdot 1k\Omega = 99k\Omega$
-$Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|106820\Omega-99000\Omega|}{99000\Omega} = 7.90\%$
+$$Gain = \frac{V_{out}}{V_{in}}$$
+$$V_{out} = (1+\frac{R_f}{R_{S}})V_{in}$$
+$$R_f = (|Gain|-1)\cdot R_{S} = (100-1)\cdot 1k\Omega = 99k\Omega$$
+$$Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|106820\Omega-99000\Omega|}{99000\Omega} = 7.90\%$$
 \noindent The measured $R_f$ was larger than the calculated value by $7.90\%$. This is due to the fact that the calculated value relied on an ideal op-amp. However, the op-amp used in the experiment was not an ideal op-amp. The LM 741 is a non-ideal op-amp, causing the difference between the calculated and measured values.
 
 \subsection*{Clipping}
