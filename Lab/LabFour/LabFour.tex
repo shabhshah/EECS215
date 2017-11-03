@@ -17,6 +17,12 @@
 %Package for reducing space in between list items
 \usepackage{enumitem}
 
+%urls
+\usepackage{hyperref}
+
+%multirow for tables
+\usepackage{multirow}
+
 %Math symbols
 \usepackage{gensymb}
 \usepackage{siunitx}
@@ -86,8 +92,42 @@
 
 \subsection*{III}
 \subsubsection*{a}
+{\doublespacing
+\noindent $Gain_{min} = 1$
+
+\noindent $Gain_{max} = 101$
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{PreLab3a1.PNG}
+	\caption{Plot of minimum gain}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{0.PNG}
+	\caption{Circuit schematic which results in minimum gain}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{PreLab3a2.PNG}
+	\caption{Plot of maximum gain}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{100000.PNG}
+	\caption{Circuit schematic which results in maximum gain}
+\end{figure}}
+
 \subsubsection*{b}
+{\doublespacing
+\noindent The smallest peak amplitude of the output signal at which clipping is observed is $12.12V$.}
+
 \subsubsection*{c}
+{\doublespacing
+\noindent The waveform is clipped only at positive voltages.}
+
+\subsubsection*{d}
+{\doublespacing
+\noindent The waveform is clipped only at negative voltages.}
 
 \section*{Lab Data}
 \subsection*{Voltage Follower}
@@ -215,6 +255,24 @@ $Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|106820\Ome
 \noindent The measured $R_f$ was larger than the calculated value by $7.90\%$. This is due to the fact that the calculated value relied on an ideal op-amp. However, the op-amp used in the experiment was not an ideal op-amp. The LM 741 is a non-ideal op-amp, causing the difference between the calculated and measured values.
 
 \subsection*{Clipping}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lllll}
+		\hline
+		& $+V_{CC}(V)$ & $-V_{CC}(V)$ & $\Delta V+(V)$ & $\Delta V-(V)$\\
+		\hline
+		Pre-Lab & $12$ & $-12$ & $-0.12$ & $0.12$\\
+		\hline
+		\multirow{2}{*}{In-Lab ($R_L=2k\Omega$)} & 15 & -15 & 1.9 & -1.7\\
+		& 20 & -20 & 2.3 & -2.1\\
+		\hline
+		\multirow{2}{*}{In-Lab ($R_L=10k\Omega$)} & 15 & -15 & 1.7 & -1.3\\
+		& 20 & -20 & 1.9 & -1.7\\
+		\hline
+	\end{tabular}
+	\caption*{Clipping data for pre-lab and in-lab}
+\end{table}
+\noindent In the values measured from the pre-lab, $\Delta V-$ and $\Delta V+$ are equal in magnitude. However, in the values measured from in-lab, $\Delta V-$ and $\Delta V+$ are not equal in magnitude, but are similar. This is due to the fact that the calculated values relied on an ideal op-amp. However, the op-amp used in the experiment was not an ideal op-amp. The LM 741 is a non-ideal op-amp, causing the difference between the calculated and measured values. $\Delta V+ = V_{CC} - V_{OUT,MAX} = V_{CC} - Gain\cdot V_{in}$ where $V_{CC} < Gain\cdot V_{in}$. According to the spec sheet found at \url{http://www.ti.com/lit/ds/symlink/lm741.pdf}, the measured output voltage swing dependent upon $R_L$ agrees with the values given.
 
 \subsection*{Phase Shift}
 \noindent As the frequency increased, the phase shift in $\mu s$ increased but the magnitude of the phase shift in $\mu s$ decreased. The phase shift in degrees decreased but the magnitude of the phase shift in degrees increased. 
