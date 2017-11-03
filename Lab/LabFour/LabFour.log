@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 NOV 2017 03:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 NOV 2017 04:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -375,7 +375,23 @@ Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
-mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+)
+\c@ContinuedFloat=\count136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -398,10 +414,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count136
+\Gread@gobject=\count137
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -414,7 +430,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks19
 \XKV@tempa@toks=\toks20
 )
-\XKV@depth=\count137
+\XKV@depth=\count138
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -428,34 +444,34 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box49
 )
-\tc@llx=\dimen160
-\tc@lly=\dimen161
-\tc@urx=\dimen162
-\tc@ury=\dimen163
+\tc@llx=\dimen167
+\tc@lly=\dimen168
+\tc@urx=\dimen169
+\tc@ury=\dimen170
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen164
-\adjbox@Height=\dimen165
-\adjbox@Depth=\dimen166
-\adjbox@Totalheight=\dimen167
+\adjbox@Width=\dimen171
+\adjbox@Height=\dimen172
+\adjbox@Depth=\dimen173
+\adjbox@Totalheight=\dimen174
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count138
+\c@checkoddpage=\count139
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box50
-\sift@deathcycles=\count139
-\@vwid@loff=\dimen168
-\@vwid@roff=\dimen169
+\sift@deathcycles=\count140
+\@vwid@loff=\dimen175
+\@vwid@roff=\dimen176
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count140
+\c@float@type=\count141
 \float@exts=\toks21
 \float@box=\box51
 \@float@everytoks=\toks22
@@ -463,18 +479,18 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (./LabFour.aux)
 \openout1 = `LabFour.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -510,14 +526,14 @@ LaTeX Font Info:    ... okay on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 34.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 34.
+LaTeX Info: Redefining \celsius on input line 37.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 37.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 34.
-Package gensymb Info: Using \Omega for \ohm on input line 34.
+LaTeX Info: Redefining \ohm on input line 37.
+Package gensymb Info: Using \Omega for \ohm on input line 37.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -529,18 +545,22 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen170
+\scratchcounter=\count142
+\scratchdimen=\dimen177
 \scratchbox=\box53
-\nofMPsegments=\count142
-\nofMParguments=\count143
+\nofMPsegments=\count143
+\nofMParguments=\count144
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen171
-\MPnumerator=\count145
-\makeMPintoPDFobject=\count146
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen178
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -586,98 +606,108 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c__siunitx_mathsf_int=\count147
+\c__siunitx_mathsf_int=\count148
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
-\c__siunitx_mathtt_int=\count148
+(Font)              <5> on input line 37.
+\c__siunitx_mathtt_int=\count149
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 38.
+(Font)              <12> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 38.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 38.
+(Font)              <6> on input line 41.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<InvertingAmp.png, id=9, 639.13782pt x 448.67625pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<InvertingAmp.png, id=21, 639.13782pt x 448.67625pt>
 File: InvertingAmp.png Graphic file (type png)
  <use InvertingAmp.png>
-Package pdftex.def Info: InvertingAmp.png used on input line 61.
+Package pdftex.def Info: InvertingAmp.png used on input line 110.
 (pdftex.def)             Requested size: 469.75502pt x 329.76965pt.
 
-<NonInvertingAmp.png, id=10, 640.64343pt x 447.92343pt>
+<NonInvertingAmp.png, id=22, 640.64343pt x 447.92343pt>
 File: NonInvertingAmp.png Graphic file (type png)
 
 <use NonInvertingAmp.png>
-Package pdftex.def Info: NonInvertingAmp.png used on input line 69.
+Package pdftex.def Info: NonInvertingAmp.png used on input line 118.
 (pdftex.def)             Requested size: 469.75502pt x 328.44402pt.
- [2 <./InvertingAmp.png (PNG copy)>]
-<Clipping20V1.png, id=17, 639.89063pt x 450.18187pt>
+ [3 <./InvertingAmp.png (PNG copy)>]
+<Clipping20V1.png, id=26, 639.89063pt x 450.18187pt>
 File: Clipping20V1.png Graphic file (type png)
  <use Clipping20V1.png>
-Package pdftex.def Info: Clipping20V1.png used on input line 88.
+Package pdftex.def Info: Clipping20V1.png used on input line 137.
 (pdftex.def)             Requested size: 469.75502pt x 330.4916pt.
 
-[3 <./NonInvertingAmp.png (PNG copy)>]
-<Clipping20V2.png, id=22, 642.14906pt x 450.18187pt>
+[4 <./NonInvertingAmp.png (PNG copy)>]
+<Clipping20V2.png, id=30, 642.14906pt x 450.18187pt>
 File: Clipping20V2.png Graphic file (type png)
  <use Clipping20V2.png>
-Package pdftex.def Info: Clipping20V2.png used on input line 105.
+Package pdftex.def Info: Clipping20V2.png used on input line 154.
 (pdftex.def)             Requested size: 469.75502pt x 329.33069pt.
 
-[4 <./Clipping20V1.png (PNG copy)>]
-<PhaseShift2.png, id=26, 639.13782pt x 446.41782pt>
+[5 <./Clipping20V1.png (PNG copy)>]
+<PhaseShift2.png, id=34, 639.13782pt x 446.41782pt>
 File: PhaseShift2.png Graphic file (type png)
  <use PhaseShift2.png>
-Package pdftex.def Info: PhaseShift2.png used on input line 126.
+Package pdftex.def Info: PhaseShift2.png used on input line 175.
 (pdftex.def)             Requested size: 469.75502pt x 328.10974pt.
 
-<PhaseShift5.png, id=27, 638.385pt x 447.92343pt>
+<PhaseShift5.png, id=35, 638.385pt x 447.92343pt>
 File: PhaseShift5.png Graphic file (type png)
  <use PhaseShift5.png>
-Package pdftex.def Info: PhaseShift5.png used on input line 131.
+Package pdftex.def Info: PhaseShift5.png used on input line 180.
 (pdftex.def)             Requested size: 469.75502pt x 329.60593pt.
 
-[5 <./Clipping20V2.png (PNG copy)>]
-<PhaseShift10.png, id=32, 646.66594pt x 450.9347pt>
+[6 <./Clipping20V2.png (PNG copy)>]
+<PhaseShift10.png, id=39, 646.66594pt x 450.9347pt>
 File: PhaseShift10.png Graphic file (type png)
  <use PhaseShift10.png>
-Package pdftex.def Info: PhaseShift10.png used on input line 136.
+Package pdftex.def Info: PhaseShift10.png used on input line 185.
 (pdftex.def)             Requested size: 469.75502pt x 327.5695pt.
 
-[6 <./PhaseShift2.png (PNG copy)>]
-<PhaseShift20.png, id=36, 638.385pt x 445.665pt>
+[7 <./PhaseShift2.png (PNG copy)>]
+<PhaseShift20.png, id=44, 638.385pt x 445.665pt>
 File: PhaseShift20.png Graphic file (type png)
  <use PhaseShift20.png>
-Package pdftex.def Info: PhaseShift20.png used on input line 141.
+Package pdftex.def Info: PhaseShift20.png used on input line 190.
 (pdftex.def)             Requested size: 469.75502pt x 327.94406pt.
 
-[7 <./PhaseShift5.png (PNG copy)>] [8 <./PhaseShift10.png (PNG copy)>] [9 <./Ph
-aseShift20.png (PNG copy)>] [10] (./LabFour.aux) ) 
+[8 <./PhaseShift5.png (PNG copy)>] [9 <./PhaseShift10.png (PNG copy)>]
+Overfull \hbox (2.26344pt too wide) in paragraph at lines 196--200
+\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 =
+ []200\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 
+ = 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 333\OML/cmm/m/it/10 V$ $PercentageError \
+OT1/cmr/m/n/10 = [] = [] =
+ []
+
+[10 <./PhaseShift20.png (PNG copy)>] [11] (./LabFour.aux) ) 
 Here is how much of TeX's memory you used:
- 12525 strings out of 493029
- 259082 string characters out of 6136234
- 272564 words of memory out of 5000000
- 15947 multiletter control sequences out of 15000+600000
- 10408 words of font info for 39 fonts, out of 8000000 for 9000
+ 13579 strings out of 493029
+ 278231 string characters out of 6136234
+ 287535 words of memory out of 5000000
+ 16994 multiletter control sequences out of 15000+600000
+ 10716 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,42p,10354b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on LabFour.pdf (10 pages, 556734 bytes).
+ 38i,9n,77p,10354b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on LabFour.pdf (11 pages, 588407 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
