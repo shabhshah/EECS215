@@ -350,10 +350,30 @@ $Percentage Error = \frac{|measured-calculated|}{calculated} = \frac{|0.82814-0.
 \noindent These values are similar, but differ due to experimental errors.
 
 \subsection*{First Order Op Amp Circuit}
-Dont know
+$\tau = RC = (R_1+R_2+R_3)C = (985.92+981.50+987.64)(101.5\times10^{-9} = 2.999\times10^{-4}$
+\subsubsection*{100Hz}
+\noindent Steady state is reached. 
+
+$T = 5ms$\\
+$\frac{5\times10^{-3}}{2.999\times10^{-4}} = 16.67\tau$\\
+\noindent The measurements of $v_{out}$ agree with my expectations.
+
+\subsubsection*{500Hz}
+\noindent Steady state is reached.
+
+$T = 2ms$\\
+$\frac{2\times10^{-3}}{2.999\times10^{-4}} = 6.67\tau$\\
+\noindent The measurements of $v_{out}$ agree with my expectations. The larger frequency results in a smaller period, which is reflected in the waveform.
+
+\subsubsection*{10kHz}
+\noindent Steady state is not reached.
+
+$T = 50\mu s$\\
+$\frac{50\times10^{-6}}{2.999\times10^{-4}} = 0.17\tau$\\
+\noindent Due to the high frequency, it was difficult to predict the waveform. However, it was known that the circuit would not reach steady state, which was found to be the case.
 
 \subsection*{Series RLC Circuit}
-\subsubsection*{$R = 1k\Omega$}
+\subsubsection*{R = 1k$\Omega$}
 $f_{calculated,ideal} = 50000 Hz$\\
 $f_{calculated,real} = 49705.8252 Hz$\\
 $f_{measured} = 58823.5294 Hz$\\
@@ -364,10 +384,10 @@ $T_{calculated,real} = 20.1184\mu s$\\
 $T_{measured} = 17\mu s$\\
 $Percentage Error_{ideal} = \frac{|measured-calculated|}{calculated} = \frac{|17-20|}{20} = 15\%$\\
 $Percentage Error_{real} = \frac{|measured-calculated|}{calculated} = \frac{|17-20.1184|}{20.1184} = 15.50\%$\\
-\noindent The difference between $\omega_d$ and $\omega_0$ is dont know
+\noindent The difference between $\omega_d$ and $\omega_0$ is that $\omega_0$ is the resonant frequency of the circuit, while $\omega_d$ is the imaginary part of the natural frequency of an underdamped circuit.
 
 \subsubsection*{Critically Damped Response}
-Dont know
+The experimental data created a waveform that was close to being critically damped, but was not. This is due to the human error in determining when the circuit reaches critical damping, as well as the real values of the circuit elements which are difficult to model.
 
 \subsubsection*{Maximally Damped Response}
 \noindent The circuit does reach a new DC steady state during each half period of the square wave.
